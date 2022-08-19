@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+body {
+  background-color: rgb(37, 35, 35);
+  height: 100vh;
+  font-family: "Roboto";
+  /* background: url("./assets/justice.png") rgb(37, 35, 35) left 0 top 400px;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* height: 100vh;
+  width: 100%;*/
+}
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+.logo {
+  margin-left: 90px;
+  margin-top: 20px;
+  height: 30px;
+}
+nav .list {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 90px;
+}
+.list-item {
+  margin-right: 40px;
+  list-style-type: none;
+  color: #9c9a9a;
+}
+.list-item:first-child {
+  color: #ffffff;
+}
+.button-small {
+  border: none;
+  box-shadow: 0 1px 1px 2px rgb(155, 155, 52);
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px 20px;
+  color: rgb(155, 155, 52);
+  margin-top: 20px;
+  margin-right: 90px;
+}
+.hero {
+  display: flex;
+  gap:50px
+}
+.hero-heading {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 90px;
+  margin-bottom: 60px;
+  margin-top: 30px;
+}
+.hero-content {
+  color: #9c9a9a;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 50px;
+  margin-right: 90px;
+}
+/* div.justice {
+  height: 300px;
+  width: 100%;
+} */
+img.last {
+  height: 400px;
+  width: 100%;
+  background-position: bottom;
+  background-size: cover;
+}
