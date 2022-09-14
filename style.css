@@ -29,6 +29,7 @@ nav .list {
   margin-right: 40px;
   list-style-type: none;
   color: #9c9a9a;
+  font-size: 15px;
 }
 .list-item:first-child {
   color: #ffffff;
@@ -42,6 +43,7 @@ nav .list {
   color: rgb(155, 155, 52);
   margin-top: 20px;
   margin-right: 90px;
+  font-size: 15px;
 }
 .hero {
   display: flex;
@@ -56,15 +58,11 @@ nav .list {
 }
 .hero-content {
   color: #9c9a9a;
-  font-size: 20px;
+  font-size: 22px;
   margin-left: 40px;
   margin-top: 50px;
   margin-right: 90px;
 }
-/* div.justice {
-  height: 300px;
-  width: 100%;
-} */
 img.last {
   height: 400px;
   width: 100%;
